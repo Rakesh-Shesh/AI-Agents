@@ -1,8 +1,10 @@
-import requests
-import time
-import openai
-from prompt import generate_prompt  # Ensure `generate_prompt` is defined in prompt.py
 import os
+import time
+
+import openai
+import requests
+
+from prompt import generate_prompt  # Ensure `generate_prompt` is defined in prompt.py
 
 # Set your OpenAI API key
 openai.api_key = os.getenv("OPENAI_PERSONAL_KEY")

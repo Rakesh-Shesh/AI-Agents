@@ -1,9 +1,11 @@
-import requests
-import time
-import openai
-from prompt import generate_prompt  # Ensure `generate_prompt` is defined in prompt.py
 import os
+import time
+
+import openai
+import requests
 import streamlit as st
+
+from prompt import generate_prompt  # Ensure `generate_prompt` is defined in prompt.py
 
 # Set up Streamlit app title
 st.title("Autonomous AI Agent - Website Metrics Auditor")
